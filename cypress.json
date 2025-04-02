@@ -1,1 +1,2 @@
-{}
+{cy.get('#div1').trigger('mousedown', { which: 1 }) // Trigger mousedown event on the div with id 'div1'
+cy.get('#div2').trigger('mousemove').trigger('mouseup', { force: true }) // Trigger mousemove and mouseup events on the div with id 'div2'}
