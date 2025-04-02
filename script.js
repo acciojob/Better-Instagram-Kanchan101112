@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   const dragItems = document.querySelectorAll('.image');
   const parent = document.querySelector('.flex');
+    console.log("Checking div1:", document.getElementById('div1'));
 
   let draggedElement = null;
 
